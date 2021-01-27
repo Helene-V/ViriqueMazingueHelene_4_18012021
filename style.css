@@ -650,7 +650,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -682,11 +681,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -730,17 +724,19 @@ h2,h3,h4,h5 {
 }
 
 .accroche_4{
-    font-size: 2em
+    font-size: 2em;
+}
+
+.info_agence{
+    font-size: 1em;
+    font-weight: bold;
+    color:#ffffff;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -788,20 +784,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D6430A;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #DF3601;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #85736C!important;
     color: #FFFFFF!important;
 }
 
@@ -840,6 +836,17 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.liste_liens {
+    list-style: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.liste_liens a {
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 @media (max-width: 1024px) {
