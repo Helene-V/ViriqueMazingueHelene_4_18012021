@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    text-align: -moz-center;
 }
 
 .bloc-lg {
@@ -851,8 +852,8 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: auto;
+        padding-right: auto;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -897,8 +898,7 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        text-align: center;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -908,8 +908,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
