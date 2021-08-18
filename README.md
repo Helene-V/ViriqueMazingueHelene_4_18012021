@@ -13,6 +13,6 @@ Les livrables :
 - Le code source
 - Un rapport d'optimisation
 
-GitHub Pages : https://helene-v.github.io/Viriquehelene_4_18012021/
+GitHub Pages : https://helene-v.github.io/ViriqueMazingueHelene_4_18012021/
 
 Parcours "Développeur Web" - OpenClassRooms
